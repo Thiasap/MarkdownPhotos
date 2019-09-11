@@ -1,0 +1,1406 @@
+--------- beginning of system
+09-11 11:50:06.839 E/storaged(  782): write(append)  uid data failed!
+09-11 11:50:12.757 E/ActivityThread( 1972): Failed to find provider info for com.huawei.vdrive.mirrorlinktogo
+09-11 11:50:13.007 E/VoiceRecognizeManager( 1972): getService binder null
+09-11 11:50:13.007 E/VoiceRecognizeManager( 1972): setAuthCallback failed because get service failed
+09-11 11:50:13.008 E/VoiceRecognizeManager( 1972): getService binder null
+09-11 11:50:13.008 E/VoiceRecognizeManager( 1972): getHeadsetStatus failed because get service failed
+09-11 11:50:14.451 E/ActivityThread( 1989): Failed to find provider info for media
+09-11 11:50:14.607 E/ActivityThread( 1989): Failed to find provider info for media
+09-11 11:50:14.612 E/ActivityThread( 1989): Failed to find provider info for media
+09-11 11:50:14.646 E/ActivityThread( 1989): Failed to find provider info for media
+09-11 11:50:14.652 E/ActivityThread( 1989): Failed to find provider info for media
+09-11 11:50:14.654 E/ActivityThread( 1989): Failed to find provider info for media
+09-11 11:50:14.812 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:14.820 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:14.856 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:14.883 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:14.886 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:14.890 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:14.893 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:14.935 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:14.976 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:14.978 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.032 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.033 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.160 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.162 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.212 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.228 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.255 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.269 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.272 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.289 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.346 E/ActivityThread( 2684): Failed to find provider info for com.android.contacts
+--------- beginning of crash
+09-11 11:50:15.358 E/AndroidRuntime( 2124): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:15.358 E/AndroidRuntime( 2124): Process: com.android.phone, PID: 2124
+09-11 11:50:15.358 E/AndroidRuntime( 2124): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+33s127ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:15.358 E/AndroidRuntime( 2124): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:15.358 E/AndroidRuntime( 2124): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:15.358 E/AndroidRuntime( 2124): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:15.358 E/AndroidRuntime( 2124): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:15.367 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.368 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.419 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.427 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.430 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.455 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.468 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.472 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.476 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.480 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.484 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.484 E/ActivityThread( 2684): Failed to find provider info for com.huawei.vdrive.mirrorlinktogo
+09-11 11:50:15.487 E/ActivityThread( 2684): Failed to find provider info for com.huawei.ziri
+09-11 11:50:15.490 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.496 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.522 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.523 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.525 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.526 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.576 E/ActivityThread( 1972): Failed to find provider info for media
+09-11 11:50:15.673 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.726 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.739 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.776 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:15.805 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:16.056 E/ActivityThread( 2407): Failed to find provider info for com.android.contacts
+09-11 11:50:16.302 E/ActivityThread( 1972): Failed to find provider info for com.android.contacts
+09-11 11:50:16.453 E/Cryptfs (  489): cryptfs_get_password not valid for file encryption
+09-11 11:50:16.458 E/ActivityThread( 2881): Failed to find provider info for com.android.contacts
+09-11 11:50:16.459 E/ActivityThread( 2881): Failed to find provider info for com.android.contacts
+09-11 11:50:17.236 E/ActivityThread( 2881): Failed to find provider info for com.android.contacts
+09-11 11:50:17.237 E/ActivityThread( 2881): Failed to find provider info for com.android.contacts
+09-11 11:50:17.514 E/AndroidRuntime( 2858): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:17.514 E/AndroidRuntime( 2858): Process: com.android.phone, PID: 2858
+09-11 11:50:17.514 E/AndroidRuntime( 2858): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+35s281ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:17.514 E/AndroidRuntime( 2858): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:17.514 E/AndroidRuntime( 2858): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:17.514 E/AndroidRuntime( 2858): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:17.514 E/AndroidRuntime( 2858): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:17.541 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:17.541 E/ActivityThread( 2530): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:17.580 E/ActivityThread( 2090): Failed to find provider info for com.huawei.scenepack.database.AppletSettingsProvider
+09-11 11:50:17.912 E/ActivityThread( 2881): Failed to find provider info for com.android.contacts
+09-11 11:50:18.318 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.345 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.364 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.497 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.521 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.524 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.535 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.535 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.542 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.633 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.633 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.658 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.688 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.697 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:18.698 E/ActivityThread( 3146): Failed to find provider info for com.google.android.gsf.gservices
+09-11 11:50:19.443 E/AndroidRuntime( 3178): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:19.443 E/AndroidRuntime( 3178): Process: com.android.phone, PID: 3178
+09-11 11:50:19.443 E/AndroidRuntime( 3178): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+37s212ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:19.443 E/AndroidRuntime( 3178): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:19.443 E/AndroidRuntime( 3178): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:19.443 E/AndroidRuntime( 3178): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:19.443 E/AndroidRuntime( 3178): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:20.762 E/AndroidRuntime( 3300): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:20.762 E/AndroidRuntime( 3300): Process: com.android.phone, PID: 3300
+09-11 11:50:20.762 E/AndroidRuntime( 3300): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+38s532ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:20.762 E/AndroidRuntime( 3300): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:20.762 E/AndroidRuntime( 3300): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:20.762 E/AndroidRuntime( 3300): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:20.762 E/AndroidRuntime( 3300): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:21.636 E/vold    (  489): KM::getdevice begin
+09-11 11:50:21.638 E/vold    (  489): KM::getdevice end
+09-11 11:50:21.638 E/vold    (  489): KM::begin begin
+09-11 11:50:21.977 E/vold    (  489): KM::begin end
+09-11 11:50:21.978 E/vold    (  489): KM::update begin
+09-11 11:50:21.989 E/vold    (  489): KM::update end
+09-11 11:50:21.989 E/vold    (  489): KM::finish begin
+09-11 11:50:21.999 E/vold    (  489): KM::finish end
+09-11 11:50:22.000 E/vold    (  489): read sd cid failed, path=
+09-11 11:50:22.000 E/vold    (  489): get sd cid failed in crypsd detect device
+09-11 11:50:22.000 E/vold    (  489): crypted detect device failed
+09-11 11:50:22.044 E/ActivityThread( 2139): Failed to find provider info for com.huawei.parentcontrol
+09-11 11:50:22.044 E/ActivityThread( 2139): Failed to find provider info for com.huawei.parentcontrol
+09-11 11:50:22.045 E/ActivityThread( 2139): Failed to find provider info for com.huawei.parentcontrol
+09-11 11:50:22.265 E/AndroidRuntime( 3452): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:22.265 E/AndroidRuntime( 3452): Process: com.android.phone, PID: 3452
+09-11 11:50:22.265 E/AndroidRuntime( 3452): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+40s34ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:22.265 E/AndroidRuntime( 3452): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:22.265 E/AndroidRuntime( 3452): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:22.265 E/AndroidRuntime( 3452): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:22.265 E/AndroidRuntime( 3452): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:23.938 E/AndroidRuntime( 3593): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:23.938 E/AndroidRuntime( 3593): Process: com.android.phone, PID: 3593
+09-11 11:50:23.938 E/AndroidRuntime( 3593): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+41s707ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:23.938 E/AndroidRuntime( 3593): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:23.938 E/AndroidRuntime( 3593): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:23.938 E/AndroidRuntime( 3593): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:23.938 E/AndroidRuntime( 3593): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:24.957 E/SmartDualCardSM( 2057): isNeedMonitorAppQoe return false,invalid params,mForegroundAppUid=-1
+09-11 11:50:24.966 E/SmartDualCardTraffic( 2057): getMealTrafficImpl fail,invalid imsi
+09-11 11:50:24.970 E/SmartDualCardSM( 2057): updateDualCardOperator fail,ss=null
+09-11 11:50:24.971 E/SmartDualCardTraffic( 2057): getMealTrafficImpl fail,invalid imsi
+09-11 11:50:25.277 E/AndroidRuntime( 3743): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:25.277 E/AndroidRuntime( 3743): Process: com.android.phone, PID: 3743
+09-11 11:50:25.277 E/AndroidRuntime( 3743): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+43s45ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:25.277 E/AndroidRuntime( 3743): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:25.277 E/AndroidRuntime( 3743): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:25.277 E/AndroidRuntime( 3743): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:25.277 E/AndroidRuntime( 3743): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:26.515 E/AndroidRuntime( 3838): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:26.515 E/AndroidRuntime( 3838): Process: com.android.phone, PID: 3838
+09-11 11:50:26.515 E/AndroidRuntime( 3838): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+44s285ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:26.515 E/AndroidRuntime( 3838): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:26.515 E/AndroidRuntime( 3838): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:26.515 E/AndroidRuntime( 3838): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:26.515 E/AndroidRuntime( 3838): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:27.536 E/AndroidRuntime( 3926): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:27.536 E/AndroidRuntime( 3926): Process: com.android.phone, PID: 3926
+09-11 11:50:27.536 E/AndroidRuntime( 3926): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+45s306ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:27.536 E/AndroidRuntime( 3926): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:27.536 E/AndroidRuntime( 3926): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:27.536 E/AndroidRuntime( 3926): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:27.536 E/AndroidRuntime( 3926): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:27.686 E/vold    (  489): OVP this platform not support ovp
+09-11 11:50:27.812 E/FaceRecognizeService( 2057): handleMessage EVT = 1002
+09-11 11:50:28.074 E/OllieTelephony( 2057): sendFullData err:-1
+09-11 11:50:28.427 E/LoadedApk( 4224): Unable to instantiate appComponentFactory
+09-11 11:50:28.427 E/LoadedApk( 4224): java.lang.ClassNotFoundException: Didn't find class "android.support.v4.app.CoreComponentFactory" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.ksxkq.floating-RohY8JZOE45A2UD4ShBwbg==/base.apk"],nativeLibraryDirectories=[/data/app/com.ksxkq.floating-RohY8JZOE45A2UD4ShBwbg==/lib/arm64, /data/app/com.ksxkq.floating-RohY8JZOE45A2UD4ShBwbg==/base.apk!/lib/arm64-v8a, /system/lib64, /product/lib64]]
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at android.app.LoadedApk.createAppFactory(LoadedApk.java:257)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:805)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:884)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at com.elderdrivers.riru.edxp._hooker.impl.HandleBindApp.beforeHookedMethod(HandleBindApp.java:67)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at de.robv.android.xposed.XC_MethodHook.callBeforeHookedMethod(XC_MethodHook.java:51)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:276)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:50:28.427 E/LoadedApk( 4224): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:50:31.163 E/AndroidRuntime( 4025): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:31.163 E/AndroidRuntime( 4025): Process: com.android.phone, PID: 4025
+09-11 11:50:31.163 E/AndroidRuntime( 4025): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+48s931ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:31.163 E/AndroidRuntime( 4025): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:31.163 E/AndroidRuntime( 4025): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:31.163 E/AndroidRuntime( 4025): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:31.163 E/AndroidRuntime( 4025): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:33.381 E/AsyncChannel( 2042): mResultMsg should be null here
+09-11 11:50:34.966 E/ActivityThread( 5086): Failed to find provider info for com.tencent.mm.coolassist.debugprovider
+09-11 11:50:36.354 E/AndroidRuntime( 5068): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:36.354 E/AndroidRuntime( 5068): Process: com.android.phone, PID: 5068
+09-11 11:50:36.354 E/AndroidRuntime( 5068): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+54s123ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:36.354 E/AndroidRuntime( 5068): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:36.354 E/AndroidRuntime( 5068): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:36.354 E/AndroidRuntime( 5068): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:36.354 E/AndroidRuntime( 5068): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:36.916 F/libc    ( 5086): Fatal signal 6 (SIGABRT), code -6 (SI_TKILL) in tid 5086 (com.tencent.mm), pid 5086 (com.tencent.mm)
+09-11 11:50:37.066 F/DEBUG   ( 5729): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+09-11 11:50:37.067 F/DEBUG   ( 5729): Build fingerprint: 'HONOR/BKL-AL20/HWBKL:9/HUAWEIBKL-AL20/321C00:user/release-keys'
+09-11 11:50:37.067 F/DEBUG   ( 5729): Revision: '0'
+09-11 11:50:37.067 F/DEBUG   ( 5729): ABI: 'arm'
+09-11 11:50:37.068 F/DEBUG   ( 5729): Happend: 'Wed Sep 11 11:50:37 2019
+09-11 11:50:37.068 F/DEBUG   ( 5729): '
+09-11 11:50:37.068 F/DEBUG   ( 5729): SYSVMTYPE: Art
+09-11 11:50:37.068 F/DEBUG   ( 5729): APPVMTYPE: Art
+09-11 11:50:37.068 F/DEBUG   ( 5729): pid: 5086, tid: 5086, name: com.tencent.mm  >>> com.tencent.mm <<<
+09-11 11:50:37.068 F/DEBUG   ( 5729): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+09-11 11:50:37.068 F/DEBUG   ( 5729): Abort message: 'thread-inl.h:267] Transitioning to runnable with checkpoint flag,  flags=2 state=67'
+09-11 11:50:37.068 F/DEBUG   ( 5729):     r0  00000000  r1  000013de  r2  00000006  r3  00000008
+09-11 11:50:37.068 F/DEBUG   ( 5729):     r4  000013de  r5  000013de  r6  ff972d84  r7  0000010c
+09-11 11:50:37.068 F/DEBUG   ( 5729):     r8  0000000b  r9  ff972e40  r10 ef4ae39c  r11 ef45d418
+09-11 11:50:37.068 F/DEBUG   ( 5729):     ip  00000041  sp  ff972d70  lr  f2c2aa6d  pc  f2c22796
+09-11 11:50:37.077 F/DEBUG   ( 5729): 
+09-11 11:50:37.077 F/DEBUG   ( 5729): backtrace:
+09-11 11:50:37.077 F/DEBUG   ( 5729):     #00 pc 0001d796  /system/lib/libc.so (abort+58)
+09-11 11:50:37.077 F/DEBUG   ( 5729):     #01 pc 0036b14b  /system/lib/libart.so (offset 0x35f000) (art::Runtime::Abort(char const*)+950)
+09-11 11:50:37.077 F/DEBUG   ( 5729):     #02 pc 0000720b  /system/lib/libbase.so (android::base::LogMessage::~LogMessage()+578)
+09-11 11:50:37.077 F/DEBUG   ( 5729):     #03 pc 003f2ba5  /system/lib/libart.so (offset 0x360000) (_ZN3artL12GoToRunnableEPNS_6ThreadE.llvm.3943276696+264)
+09-11 11:50:37.077 F/DEBUG   ( 5729):     #04 pc 003f2a75  /system/lib/libart.so (offset 0x360000) (art::JniMethodEnd(unsigned int, art::Thread*)+8)
+09-11 11:50:37.077 F/DEBUG   ( 5729):     #05 pc 00003bdd  /data/dalvik-cache/arm/system@framework@edxp.jar@classes.dex (offset 0x3000)
+09-11 11:50:37.366 E/PolicyManager( 2057): keySet = 1
+09-11 11:50:38.768 E/AndroidRuntime( 5686): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:38.768 E/AndroidRuntime( 5686): Process: com.android.phone, PID: 5686
+09-11 11:50:38.768 E/AndroidRuntime( 5686): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+56s538ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:38.768 E/AndroidRuntime( 5686): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:38.768 E/AndroidRuntime( 5686): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:38.768 E/AndroidRuntime( 5686): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:38.768 E/AndroidRuntime( 5686): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:40.250 E/AndroidRuntime( 5868): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:40.250 E/AndroidRuntime( 5868): Process: com.android.phone, PID: 5868
+09-11 11:50:40.250 E/AndroidRuntime( 5868): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+58s19ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:40.250 E/AndroidRuntime( 5868): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:40.250 E/AndroidRuntime( 5868): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:40.250 E/AndroidRuntime( 5868): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:40.250 E/AndroidRuntime( 5868): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:41.603 E/AndroidRuntime( 6021): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:41.603 E/AndroidRuntime( 6021): Process: com.android.phone, PID: 6021
+09-11 11:50:41.603 E/AndroidRuntime( 6021): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+59s372ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:41.603 E/AndroidRuntime( 6021): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:41.603 E/AndroidRuntime( 6021): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:41.603 E/AndroidRuntime( 6021): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:41.603 E/AndroidRuntime( 6021): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:43.414 E/AndroidRuntime( 6134): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:43.414 E/AndroidRuntime( 6134): Process: com.android.phone, PID: 6134
+09-11 11:50:43.414 E/AndroidRuntime( 6134): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m1s182ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:43.414 E/AndroidRuntime( 6134): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:43.414 E/AndroidRuntime( 6134): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:43.414 E/AndroidRuntime( 6134): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:43.414 E/AndroidRuntime( 6134): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:46.656 E/AndroidRuntime( 6266): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:46.656 E/AndroidRuntime( 6266): Process: com.android.phone, PID: 6266
+09-11 11:50:46.656 E/AndroidRuntime( 6266): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m4s424ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:46.656 E/AndroidRuntime( 6266): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:46.656 E/AndroidRuntime( 6266): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:46.656 E/AndroidRuntime( 6266): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:46.656 E/AndroidRuntime( 6266): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:48.077 E/OllieTelephony( 2057): sendFullData err:-1
+09-11 11:50:49.492 E/AndroidRuntime( 6426): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:49.492 E/AndroidRuntime( 6426): Process: com.android.phone, PID: 6426
+09-11 11:50:49.492 E/AndroidRuntime( 6426): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m7s259ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:49.492 E/AndroidRuntime( 6426): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:49.492 E/AndroidRuntime( 6426): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:49.492 E/AndroidRuntime( 6426): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:49.492 E/AndroidRuntime( 6426): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:52.340 E/AndroidRuntime( 6529): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:52.340 E/AndroidRuntime( 6529): Process: com.android.phone, PID: 6529
+09-11 11:50:52.340 E/AndroidRuntime( 6529): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m10s106ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:52.340 E/AndroidRuntime( 6529): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:52.340 E/AndroidRuntime( 6529): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:52.340 E/AndroidRuntime( 6529): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:52.340 E/AndroidRuntime( 6529): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:54.508 E/AndroidRuntime( 6636): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:54.508 E/AndroidRuntime( 6636): Process: com.android.phone, PID: 6636
+09-11 11:50:54.508 E/AndroidRuntime( 6636): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m12s277ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:54.508 E/AndroidRuntime( 6636): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:54.508 E/AndroidRuntime( 6636): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:54.508 E/AndroidRuntime( 6636): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:54.508 E/AndroidRuntime( 6636): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:56.639 E/AndroidRuntime( 6737): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:56.639 E/AndroidRuntime( 6737): Process: com.android.phone, PID: 6737
+09-11 11:50:56.639 E/AndroidRuntime( 6737): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m14s408ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:56.639 E/AndroidRuntime( 6737): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:56.639 E/AndroidRuntime( 6737): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:56.639 E/AndroidRuntime( 6737): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:56.639 E/AndroidRuntime( 6737): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:50:58.815 E/AndroidRuntime( 6843): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:50:58.815 E/AndroidRuntime( 6843): Process: com.android.phone, PID: 6843
+09-11 11:50:58.815 E/AndroidRuntime( 6843): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m16s582ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:50:58.815 E/AndroidRuntime( 6843): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:50:58.815 E/AndroidRuntime( 6843): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:50:58.815 E/AndroidRuntime( 6843): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:50:58.815 E/AndroidRuntime( 6843): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:01.149 E/AndroidRuntime( 6945): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:01.149 E/AndroidRuntime( 6945): Process: com.android.phone, PID: 6945
+09-11 11:51:01.149 E/AndroidRuntime( 6945): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m18s918ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:01.149 E/AndroidRuntime( 6945): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:01.149 E/AndroidRuntime( 6945): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:01.149 E/AndroidRuntime( 6945): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:01.149 E/AndroidRuntime( 6945): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:03.915 E/AndroidRuntime( 7204): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:03.915 E/AndroidRuntime( 7204): Process: com.android.phone, PID: 7204
+09-11 11:51:03.915 E/AndroidRuntime( 7204): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m21s684ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:03.915 E/AndroidRuntime( 7204): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:03.915 E/AndroidRuntime( 7204): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:03.915 E/AndroidRuntime( 7204): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:03.915 E/AndroidRuntime( 7204): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:04.974 E/SmartDualCardTraffic( 2057): getMealTrafficImpl fail,invalid imsi
+09-11 11:51:04.978 E/SmartDualCardSM( 2057): updateDualCardOperator fail,ss=null
+09-11 11:51:04.980 E/SmartDualCardTraffic( 2057): getMealTrafficImpl fail,invalid imsi
+09-11 11:51:06.135 E/AndroidRuntime( 7402): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:06.135 E/AndroidRuntime( 7402): Process: com.android.phone, PID: 7402
+09-11 11:51:06.135 E/AndroidRuntime( 7402): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m23s901ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:06.135 E/AndroidRuntime( 7402): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:06.135 E/AndroidRuntime( 7402): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:06.135 E/AndroidRuntime( 7402): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:06.135 E/AndroidRuntime( 7402): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:08.383 E/AndroidRuntime( 7502): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:08.383 E/AndroidRuntime( 7502): Process: com.android.phone, PID: 7502
+09-11 11:51:08.383 E/AndroidRuntime( 7502): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m26s152ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:08.383 E/AndroidRuntime( 7502): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:08.383 E/AndroidRuntime( 7502): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:08.383 E/AndroidRuntime( 7502): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:08.383 E/AndroidRuntime( 7502): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:10.581 E/AndroidRuntime( 7609): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:10.581 E/AndroidRuntime( 7609): Process: com.android.phone, PID: 7609
+09-11 11:51:10.581 E/AndroidRuntime( 7609): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m28s350ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:10.581 E/AndroidRuntime( 7609): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:10.581 E/AndroidRuntime( 7609): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:10.581 E/AndroidRuntime( 7609): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:10.581 E/AndroidRuntime( 7609): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:12.623 E/AndroidRuntime( 7715): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:12.623 E/AndroidRuntime( 7715): Process: com.android.phone, PID: 7715
+09-11 11:51:12.623 E/AndroidRuntime( 7715): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m30s391ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:12.623 E/AndroidRuntime( 7715): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:12.623 E/AndroidRuntime( 7715): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:12.623 E/AndroidRuntime( 7715): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:12.623 E/AndroidRuntime( 7715): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:14.663 E/AndroidRuntime( 7820): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:14.663 E/AndroidRuntime( 7820): Process: com.android.phone, PID: 7820
+09-11 11:51:14.663 E/AndroidRuntime( 7820): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m32s430ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:14.663 E/AndroidRuntime( 7820): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:14.663 E/AndroidRuntime( 7820): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:14.663 E/AndroidRuntime( 7820): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:14.663 E/AndroidRuntime( 7820): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:16.851 E/AndroidRuntime( 7927): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:16.851 E/AndroidRuntime( 7927): Process: com.android.phone, PID: 7927
+09-11 11:51:16.851 E/AndroidRuntime( 7927): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m34s620ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:16.851 E/AndroidRuntime( 7927): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:16.851 E/AndroidRuntime( 7927): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:16.851 E/AndroidRuntime( 7927): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:16.851 E/AndroidRuntime( 7927): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:18.994 E/AndroidRuntime( 8031): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:18.994 E/AndroidRuntime( 8031): Process: com.android.phone, PID: 8031
+09-11 11:51:18.994 E/AndroidRuntime( 8031): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m36s759ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:18.994 E/AndroidRuntime( 8031): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:18.994 E/AndroidRuntime( 8031): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:18.994 E/AndroidRuntime( 8031): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:18.994 E/AndroidRuntime( 8031): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:21.184 E/AndroidRuntime( 8133): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:21.184 E/AndroidRuntime( 8133): Process: com.android.phone, PID: 8133
+09-11 11:51:21.184 E/AndroidRuntime( 8133): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m38s950ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:21.184 E/AndroidRuntime( 8133): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:21.184 E/AndroidRuntime( 8133): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:21.184 E/AndroidRuntime( 8133): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:21.184 E/AndroidRuntime( 8133): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:22.446 E/AndroidRuntime( 8240): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:22.446 E/AndroidRuntime( 8240): Process: com.android.phone, PID: 8240
+09-11 11:51:22.446 E/AndroidRuntime( 8240): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m40s215ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:22.446 E/AndroidRuntime( 8240): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:22.446 E/AndroidRuntime( 8240): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:22.446 E/AndroidRuntime( 8240): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:22.446 E/AndroidRuntime( 8240): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:24.525 E/AndroidRuntime( 8380): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:24.525 E/AndroidRuntime( 8380): Process: com.android.phone, PID: 8380
+09-11 11:51:24.525 E/AndroidRuntime( 8380): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m42s293ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:24.525 E/AndroidRuntime( 8380): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:24.525 E/AndroidRuntime( 8380): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:24.525 E/AndroidRuntime( 8380): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:24.525 E/AndroidRuntime( 8380): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:24.739 E/ProcessInfoCollector( 1507): getProcessInfo: failed to find this proc 
+09-11 11:51:26.430 E/AndroidRuntime( 8480): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:26.430 E/AndroidRuntime( 8480): Process: com.android.phone, PID: 8480
+09-11 11:51:26.430 E/AndroidRuntime( 8480): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m44s198ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:26.430 E/AndroidRuntime( 8480): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:26.430 E/AndroidRuntime( 8480): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:26.430 E/AndroidRuntime( 8480): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:26.430 E/AndroidRuntime( 8480): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:26.693 E/ProcessInfoCollector( 1507): getProcessInfo: failed to find this proc 
+--------- beginning of main
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at com.elderdrivers.riru.edxp._hooker.impl.LoadedApkCstr.afterHookedMethod(LoadedApkCstr.java:67)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.XC_MethodHook.callAfterHookedMethod(XC_MethodHook.java:68)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:383)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at SandHookerNew_11kmfuj3mo4jprq7n6o7upu921.hook(Unknown Source:87)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2540)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2495)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2467)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:2352)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.app.ContextImpl.createPackageContext(ContextImpl.java:2339)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.content.ContextWrapper.createPackageContext(ContextWrapper.java:852)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.installProvider(ActivityThread.java:7228)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6813)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6699)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:176)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:154)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:299)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	... 33 more
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/system/app/HwCallRecorder/HwCallRecorder.apk"],nativeLibraryDirectories=[/system/app/HwCallRecorder/lib/arm64, /system/lib64, /product/lib64, /system/lib64, /product/lib64]]
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:27.231 E/EdXposed-Bridge( 8583): 	... 37 more
+09-11 11:51:27.256 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:27.323 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at com.elderdrivers.riru.edxp._hooker.impl.LoadedApkCstr.afterHookedMethod(LoadedApkCstr.java:67)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.XC_MethodHook.callAfterHookedMethod(XC_MethodHook.java:68)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:383)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at SandHookerNew_11kmfuj3mo4jprq7n6o7upu921.hook(Unknown Source:87)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2540)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2495)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2467)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:2352)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.app.ContextImpl.createPackageContext(ContextImpl.java:2339)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.content.ContextWrapper.createPackageContext(ContextWrapper.java:852)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.installProvider(ActivityThread.java:7228)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6813)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6699)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:176)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:154)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:299)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	... 33 more
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/system/app/Stk/Stk.apk"],nativeLibraryDirectories=[/system/app/Stk/lib/arm64, /system/lib64, /product/lib64, /system/lib64, /product/lib64]]
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:27.327 E/EdXposed-Bridge( 8583): 	... 37 more
+09-11 11:51:27.390 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at com.elderdrivers.riru.edxp._hooker.impl.LoadedApkCstr.afterHookedMethod(LoadedApkCstr.java:67)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.XC_MethodHook.callAfterHookedMethod(XC_MethodHook.java:68)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:383)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at SandHookerNew_11kmfuj3mo4jprq7n6o7upu921.hook(Unknown Source:87)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2540)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2495)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2467)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:2352)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.app.ContextImpl.createPackageContext(ContextImpl.java:2339)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.content.ContextWrapper.createPackageContext(ContextWrapper.java:852)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.installProvider(ActivityThread.java:7228)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6813)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6699)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:176)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:154)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:299)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	... 33 more
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/system/priv-app/TelephonyProvider/TelephonyProvider.apk"],nativeLibraryDirectories=[/system/priv-app/TelephonyProvider/lib/arm64, /system/lib64, /product/lib64, /system/lib64, /product/lib64]]
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:27.443 E/EdXposed-Bridge( 8583): 	... 37 more
+09-11 11:51:27.443 E/Thermal-daemon(  783): [ap] temp_new :47  temp_old :46
+09-11 11:51:27.445 E/Thermal-daemon(  783): Report temperature: [ap] temp :47  report_threshold:1
+09-11 11:51:27.456 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:27.496 E/CarrierIdProvider( 8583): read carrier list from ota pb failure: java.io.FileNotFoundException: /data/misc/carrierid/carrier_list.pb (No such file or directory)
+09-11 11:51:27.515 E/RcsService( 8583): RcsXmlParser - mContext or mccmnc is null return
+09-11 11:51:27.522 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:27.529 E/HwModemCapability( 8583): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:27.589 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:27.626 E/FileUtils( 8583):  error:SHA1 for file /cust/global/carrier/network/xml/globalAutoAdapt-conf.xml; value:[29, -11, -105, 22, 76, -24, 6, 47, 59, 126, -71, -103, 102, 7, -44, -98, -69, -55, -56, -85]
+09-11 11:51:27.626 E/FileUtils( 8583):  error:digest for file /cust/global/carrier/network/xml/globalAutoAdapt-conf.xml; value:HfWXFkzoBi87frmZZgfUnrvJyKs=
+09-11 11:51:27.627 E/FileUtils( 8583):  error:compare digest for file /cust/global/carrier/network/xml/globalAutoAdapt-conf.xml; newDigest=HfWXFkzoBi87frmZZgfUnrvJyKs=; oldDigest=:HfWXFkzoBi87frmZZgfUnrvJyKs=
+09-11 11:51:27.631 E/FileUtils( 8583):  error:SHA1 for file /system/etc/virtualNets-conf.xml; value:[]
+09-11 11:51:27.631 E/FileUtils( 8583):  error:compare digest for file /system/etc/virtualNets-conf.xml; newDigest=null; oldDigest=:still_no_digest
+09-11 11:51:27.631 E/FileUtils( 8583):  error:isDigestChanged::digest key is::virtualnets_config_digest, it's new digest is null!
+09-11 11:51:27.634 E/FileUtils( 8583):  error:SHA1 for file /cust/global/carrier/network/xml/globalMatchs-conf.xml; value:[-115, -101, -37, -111, -119, -116, -19, -11, 95, -17, -13, 65, -77, -109, 100, 44, -100, 82, -44, 34]
+09-11 11:51:27.634 E/FileUtils( 8583):  error:digest for file /cust/global/carrier/network/xml/globalMatchs-conf.xml; value:jZvbkYmM7fVf7/NBs5NkLJxS1CI=
+09-11 11:51:27.634 E/FileUtils( 8583):  error:compare digest for file /cust/global/carrier/network/xml/globalMatchs-conf.xml; newDigest=jZvbkYmM7fVf7/NBs5NkLJxS1CI=; oldDigest=:jZvbkYmM7fVf7/NBs5NkLJxS1CI=
+09-11 11:51:27.659 E/HwInstantOnline-InstantOnlineService( 2421): AdapterListener.onIotStateChange: 2
+09-11 11:51:27.662 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:27.666 E/SarControl_Manager( 2057): setMaxTxPower, power is illegal, not set the sar
+09-11 11:51:27.683 E/HwModemCapability( 8583): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:27.684 E/HwModemCapability( 8583): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:27.685 E/SarControl_Manager( 2057): setMaxTxPower, power is illegal, not set the sar
+09-11 11:51:27.726 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:27.766 E/HwModemCapability( 8583): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:27.790 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:27.857 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:27.864 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:27.864 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:27.926 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:27.934 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:27.934 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:27.992 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:27.996 E/HwModemCapability( 8583): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:27.999 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:27.999 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.058 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.064 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.064 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.078 E/OllieTelephony( 2057): sendFullData err:-1
+09-11 11:51:28.123 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.128 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.129 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.191 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.199 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.200 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.220 E/HiData_HwArbitrationStateMachine( 1507): Unhandled Message: 4 in State: InitialState
+09-11 11:51:28.225 E/HiBoard_a( 4234): onServiceStateChanged : service state is 1
+09-11 11:51:28.235 E/HwModemCapability( 8583): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:28.260 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.263 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.263 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.272 E/HwXmlLogParse( 1507): mfile is null.
+09-11 11:51:28.301 E/HwModemCapability( 8583): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:28.305 E/HwReportTool( 1507): This is not beta user build
+09-11 11:51:28.306 E/HwXmlLogParse( 1507): mfile is null.
+09-11 11:51:28.320 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.327 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.327 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.344 E/ANet-NetworkClient( 2042): async send error, errorCode: 13, msg:Unable to resolve host "restapi.amap.com": No address associated with hostname
+09-11 11:51:28.344 E/@_13_1_@( 2042): getFromLocation exception:
+09-11 11:51:28.344 E/@_13_1_@( 2042): java.io.IOException: com.autonavi.core.network.inter.response.ResponseException: Unable to resolve host "restapi.amap.com": No address associated with hostname
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at com.amap.location.geocode.a.a(GeocodeClient.java:578)
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at com.amap.android.location.GeocodeManager.reverseGeocode(GeocodeManager.java:54)
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at com.huawei.lbs.geocoder.HwGeoCoderProvider.hwGetFromLocation(HwGeoCoderProvider.java:318)
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at com.huawei.lbs.geocoder.HwGeoCoderProvider.access$300(HwGeoCoderProvider.java:27)
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at com.huawei.lbs.geocoder.HwGeoCoderProvider$ServiceHandler.handleMessage(HwGeoCoderProvider.java:273)
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:28.344 E/@_13_1_@( 2042): Caused by: com.autonavi.core.network.inter.response.ResponseException: Unable to resolve host "restapi.amap.com": No address associated with hostname
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at com.autonavi.core.network.inter.NetworkClient$1.run(NetworkClient.java:263)
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at com.autonavi.core.network.a.a.d$c.run(ThreadPool.java:155)
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at java.util.concurrent.ThreadPoolExecutor.processTask(ThreadPoolExecutor.java:1187)
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+09-11 11:51:28.344 E/@_13_1_@( 2042): 	at java.lang.Thread.run(Thread.java:784)
+09-11 11:51:28.390 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.396 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.396 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.459 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.466 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.466 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.474 E/HwXmlLogParse( 1507): mfile is null.
+09-11 11:51:28.483 E/AndroidRuntime( 8583): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:28.483 E/AndroidRuntime( 8583): Process: com.android.phone, PID: 8583
+09-11 11:51:28.483 E/AndroidRuntime( 8583): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=0 what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m46s251ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:28.483 E/AndroidRuntime( 8583): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:28.483 E/AndroidRuntime( 8583): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:28.483 E/AndroidRuntime( 8583): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:28.483 E/AndroidRuntime( 8583): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:28.491 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.496 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.497 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.503 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.503 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.506 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.506 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.507 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.512 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.512 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.512 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.512 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.512 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.514 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.514 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:28.526 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.539 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.539 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.582 E/HwInstantOnline-NearbyWrapper( 2421): setDiscoverableStatus: adapter is null
+09-11 11:51:28.582 E/HwInstantOnline-NearbyWrapper( 2421): setDiscoverableStatus: adapter is null
+09-11 11:51:28.582 E/HwInstantOnline-InstantOnlineService( 2421): AdapterListener.onIotStateChange: 2
+09-11 11:51:28.590 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.597 E/HwInstantOnline-NearbyWrapper( 2421): setDiscoverableStatus: adapter is null
+09-11 11:51:28.598 E/HwInstantOnline-NearbyWrapper( 2421): setDiscoverableStatus: adapter is null
+09-11 11:51:28.608 E/HsmCoreServiceImpl( 2057): onTransact in code is: 102
+09-11 11:51:28.609 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.610 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.622 E/HSM_Install_BG( 2407): SimCardMethod:/getPhoneSimCardInfo: boths card not recongnized
+09-11 11:51:28.625 E/HwReportTool( 1507): This is not beta user build
+09-11 11:51:28.626 E/HwXmlLogParse( 1507): mfile is null.
+09-11 11:51:28.638 E/HSM_Install_BG( 2407): SimCardMethod:/getPhoneSimCardInfo: boths card not recongnized
+09-11 11:51:28.659 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.667 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.668 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.705 E/ProcessInfoCollector( 1507): getProcessInfo: failed to find this proc 
+09-11 11:51:28.723 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.733 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.733 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.741 E/m.android.phon( 8687): Not starting debugger since process cannot load the jdwp agent.
+09-11 11:51:28.795 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.799 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.799 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.858 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.865 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.865 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.927 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.930 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.930 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:28.991 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:28.997 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:28.997 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:29.058 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.063 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:29.063 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at com.elderdrivers.riru.edxp._hooker.impl.HandleBindApp.beforeHookedMethod(HandleBindApp.java:70)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XC_MethodHook.callBeforeHookedMethod(XC_MethodHook.java:51)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:276)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	... 19 more
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/system/priv-app/TeleService/TeleService.apk"],nativeLibraryDirectories=[/system/priv-app/TeleService/lib/arm64, /system/lib64, /product/lib64, /system/lib64, /product/lib64]]
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:29.111 E/EdXposed-Bridge( 8687): 	... 23 more
+09-11 11:51:29.123 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.130 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:29.130 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:29.191 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.199 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:29.199 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at com.elderdrivers.riru.edxp._hooker.impl.LoadedApkCstr.afterHookedMethod(LoadedApkCstr.java:67)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XC_MethodHook.callAfterHookedMethod(XC_MethodHook.java:68)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:383)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at SandHookerNew_11kmfuj3mo4jprq7n6o7upu921.hook(Unknown Source:87)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2540)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2495)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2467)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:2352)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.app.ContextImpl.createPackageContext(ContextImpl.java:2339)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.content.ContextWrapper.createPackageContext(ContextWrapper.java:852)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.installProvider(ActivityThread.java:7228)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6813)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6699)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:176)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:154)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:299)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	... 33 more
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/system/app/HwCallRecorder/HwCallRecorder.apk"],nativeLibraryDirectories=[/system/app/HwCallRecorder/lib/arm64, /system/lib64, /product/lib64, /system/lib64, /product/lib64]]
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:29.242 E/EdXposed-Bridge( 8687): 	... 37 more
+09-11 11:51:29.257 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.264 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:29.264 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:29.323 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.329 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:29.329 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at com.elderdrivers.riru.edxp._hooker.impl.LoadedApkCstr.afterHookedMethod(LoadedApkCstr.java:67)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XC_MethodHook.callAfterHookedMethod(XC_MethodHook.java:68)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:383)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at SandHookerNew_11kmfuj3mo4jprq7n6o7upu921.hook(Unknown Source:87)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2540)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2495)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2467)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:2352)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.app.ContextImpl.createPackageContext(ContextImpl.java:2339)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.content.ContextWrapper.createPackageContext(ContextWrapper.java:852)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.installProvider(ActivityThread.java:7228)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6813)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6699)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:176)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:154)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:299)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	... 33 more
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/system/app/Stk/Stk.apk"],nativeLibraryDirectories=[/system/app/Stk/lib/arm64, /system/lib64, /product/lib64, /system/lib64, /product/lib64]]
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:29.341 E/EdXposed-Bridge( 8687): 	... 37 more
+09-11 11:51:29.391 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.397 E/aiserver(  801): +++ AiModelMngrService::runModel2 PIDCID_CONCAT = 4168000
+09-11 11:51:29.398 E/aiserver(  801): +++ AiModelMngrService::runModel2 isSync = 1
+09-11 11:51:29.409 E/aiserver(  801): +++ stopModel2 pid = 4168000
+09-11 11:51:29.409 E/aiserver(  801): +++ stopModel2 isSync = 1
+09-11 11:51:29.409 E/aiserver(  801): AiModelMngrService::UnloadModel isSync = 1
+09-11 11:51:29.409 E/aiserver(  801): +++ enter AiModelMngrService::cleanResource pid = 4168000
+09-11 11:51:29.411 E/aiserver(  801): +++ AiModelMngrService::unregisterInstance pid = 4168000
+09-11 11:51:29.411 E/aiserver(  801): +++ enter AiModelMngrService::cleanResource pid = 4168000
+09-11 11:51:29.411 E/aiserver(  801): cleanResource service 4168000 is not create
+09-11 11:51:29.456 E/IntelliService( 4168): onDestroy  com.huawei.intelliServer.intelliServer.IntelliService@4d5f72f
+09-11 11:51:29.459 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at com.elderdrivers.riru.edxp._hooker.impl.LoadedApkCstr.afterHookedMethod(LoadedApkCstr.java:67)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XC_MethodHook.callAfterHookedMethod(XC_MethodHook.java:68)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:383)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at SandHookerNew_11kmfuj3mo4jprq7n6o7upu921.hook(Unknown Source:87)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2540)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2495)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2467)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:2352)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.app.ContextImpl.createPackageContext(ContextImpl.java:2339)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.content.ContextWrapper.createPackageContext(ContextWrapper.java:852)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.installProvider(ActivityThread.java:7228)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6813)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6699)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:176)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:154)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:299)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	... 33 more
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/system/priv-app/TelephonyProvider/TelephonyProvider.apk"],nativeLibraryDirectories=[/system/priv-app/TelephonyProvider/lib/arm64, /system/lib64, /product/lib64, /system/lib64, /product/lib64]]
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:29.462 E/EdXposed-Bridge( 8687): 	... 37 more
+09-11 11:51:29.477 E/AudioTrack( 1972): StreamType not music do not upload bigdata
+09-11 11:51:29.499 E/libEGL  ( 1507): eglCreateWindowSurface:806 error 300b (EGL_BAD_NATIVE_WINDOW)
+09-11 11:51:29.523 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.538 E/CarrierIdProvider( 8687): read carrier list from ota pb failure: java.io.FileNotFoundException: /data/misc/carrierid/carrier_list.pb (No such file or directory)
+09-11 11:51:29.538 E/fpc_fingerprint_hal(  822): [fph_nav] do_navigation break loop, reason: wait_finger_down is canceled -4
+09-11 11:51:29.542 E/smartpakit(  644): unsurpport cmd = 27
+09-11 11:51:29.542 E/smartpakit(  644): smartpa_algo_control: cmd = 27 execute failed!
+09-11 11:51:29.542 E/smartpakit(  644): set_contain_sco_and_speaker_to_dsp: set BT-SCO and speaker to dsp, failed!
+09-11 11:51:29.557 E/RcsService( 8687): RcsXmlParser - mContext or mccmnc is null return
+09-11 11:51:29.560 E/fpc_tac (  822): fpc_tac_begin_identify---need_liveness_authentication: 0
+09-11 11:51:29.568 E/HwModemCapability( 8687): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:29.575 E/AudioFlinger(  682): writing blocked, write to hal costs: 67 ms
+09-11 11:51:29.591 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.659 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.672 E/FileUtils( 8687):  error:SHA1 for file /cust/global/carrier/network/xml/globalAutoAdapt-conf.xml; value:[29, -11, -105, 22, 76, -24, 6, 47, 59, 126, -71, -103, 102, 7, -44, -98, -69, -55, -56, -85]
+09-11 11:51:29.672 E/FileUtils( 8687):  error:digest for file /cust/global/carrier/network/xml/globalAutoAdapt-conf.xml; value:HfWXFkzoBi87frmZZgfUnrvJyKs=
+09-11 11:51:29.672 E/FileUtils( 8687):  error:compare digest for file /cust/global/carrier/network/xml/globalAutoAdapt-conf.xml; newDigest=HfWXFkzoBi87frmZZgfUnrvJyKs=; oldDigest=:HfWXFkzoBi87frmZZgfUnrvJyKs=
+09-11 11:51:29.677 E/FileUtils( 8687):  error:SHA1 for file /system/etc/virtualNets-conf.xml; value:[]
+09-11 11:51:29.677 E/FileUtils( 8687):  error:compare digest for file /system/etc/virtualNets-conf.xml; newDigest=null; oldDigest=:still_no_digest
+09-11 11:51:29.677 E/FileUtils( 8687):  error:isDigestChanged::digest key is::virtualnets_config_digest, it's new digest is null!
+09-11 11:51:29.679 E/FileUtils( 8687):  error:SHA1 for file /cust/global/carrier/network/xml/globalMatchs-conf.xml; value:[-115, -101, -37, -111, -119, -116, -19, -11, 95, -17, -13, 65, -77, -109, 100, 44, -100, 82, -44, 34]
+09-11 11:51:29.679 E/FileUtils( 8687):  error:digest for file /cust/global/carrier/network/xml/globalMatchs-conf.xml; value:jZvbkYmM7fVf7/NBs5NkLJxS1CI=
+09-11 11:51:29.680 E/FileUtils( 8687):  error:compare digest for file /cust/global/carrier/network/xml/globalMatchs-conf.xml; newDigest=jZvbkYmM7fVf7/NBs5NkLJxS1CI=; oldDigest=:jZvbkYmM7fVf7/NBs5NkLJxS1CI=
+09-11 11:51:29.710 E/HwInstantOnline-InstantOnlineService( 2421): AdapterListener.onIotStateChange: 2
+09-11 11:51:29.714 E/SarControl_Manager( 2057): setMaxTxPower, power is illegal, not set the sar
+09-11 11:51:29.725 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.735 E/HwModemCapability( 8687): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:29.736 E/HwModemCapability( 8687): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:29.771 E/SarControl_Manager( 2057): setMaxTxPower, power is illegal, not set the sar
+09-11 11:51:29.781 E/JankService(  807): specialActionEntryHandler: should reset and not report
+09-11 11:51:29.781 E/JankService(  807): specialActionEntryHandler: should reset and not report
+09-11 11:51:29.792 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.803 E/ContentSensor_TableInfoManager ( 4080): createTableInfo column is null
+09-11 11:51:29.806 E/ContentSensor_TableInfoManager ( 4080): createTableInfo column is null
+09-11 11:51:29.834 E/libEGL  ( 1507): eglDestroySurface:1000 error 300d (EGL_BAD_SURFACE)
+09-11 11:51:29.835 E/ColorFade( 1507): eglDestroySurface failed: error 12301
+09-11 11:51:29.835 E/ColorFade( 1507): java.lang.Throwable
+09-11 11:51:29.835 E/ColorFade( 1507): 	at com.android.server.display.ColorFade.logEglError(ColorFade.java:691)
+09-11 11:51:29.835 E/ColorFade( 1507): 	at com.android.server.display.ColorFade.destroyEglSurface(ColorFade.java:627)
+09-11 11:51:29.835 E/ColorFade( 1507): 	at com.android.server.display.ColorFade.dismissResources(ColorFade.java:334)
+09-11 11:51:29.835 E/ColorFade( 1507): 	at com.android.server.display.DisplayPowerState.dismissColorFadeResources(DisplayPowerState.java:267)
+09-11 11:51:29.835 E/ColorFade( 1507): 	at com.android.server.display.DisplayPowerController.animateScreenStateChange(DisplayPowerController.java:2417)
+09-11 11:51:29.835 E/ColorFade( 1507): 	at com.android.server.display.DisplayPowerController.updatePowerState(DisplayPowerController.java:1308)
+09-11 11:51:29.835 E/ColorFade( 1507): 	at com.android.server.display.DisplayPowerController.access$2100(DisplayPowerController.java:145)
+09-11 11:51:29.835 E/ColorFade( 1507): 	at com.android.server.display.DisplayPowerController$DisplayControllerHandler.handleMessage(DisplayPowerController.java:2950)
+09-11 11:51:29.835 E/ColorFade( 1507): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:29.835 E/ColorFade( 1507): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:29.835 E/ColorFade( 1507): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:29.835 E/ColorFade( 1507): 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+09-11 11:51:29.835 E/libEGL  ( 1507): call to OpenGL ES API with no current context (logged once per thread)
+09-11 11:51:29.839 E/SensorHub(  795): PS activate 0
+09-11 11:51:29.857 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] doSmartAEAlgo() failed to getSceneMode
+09-11 11:51:29.894 E/HsmCoreServiceImpl( 2057): onTransact in code is: 103
+09-11 11:51:29.914 E/HISPMsgController(  785): procMsgAck: can't match api:0x201c
+09-11 11:51:29.950 E/SensorHub(  795): get_acc_convert_coff = 1000.000000
+09-11 11:51:29.950 E/HwModemCapability( 8687): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:29.956 E/NfcNci:HwCustNfcService( 4105): applyRouting -1.1
+09-11 11:51:29.957 E/JankService(  807): JankFrequencyMonitor action return :0
+09-11 11:51:29.982 E/FNFaceDetect(  785): [3c6ca2b_64E] onDestroy fail. ai facedetection proxy!
+09-11 11:51:29.983 E/IppAlgoSmartAE(  785): [3c6ca2b_64E] onUnloadLibrary() mSmartAESoState is unloaded ,so we not Uninit it!
+09-11 11:51:30.176 E/HwModemCapability( 8687): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:30.465 E/HiData_HwArbitrationStateMachine( 1507): Unhandled Message: 4 in State: InitialState
+09-11 11:51:30.466 E/HiBoard_a( 4234): onServiceStateChanged : service state is 1
+09-11 11:51:30.484 E/HwModemCapability( 8687): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:30.531 E/HwXmlLogParse( 1507): mfile is null.
+09-11 11:51:30.563 E/HwModemCapability( 8687): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:30.573 E/HwReportTool( 1507): This is not beta user build
+09-11 11:51:30.574 E/HwXmlLogParse( 1507): mfile is null.
+09-11 11:51:30.610 E/ANet-NetworkClient( 2042): async send error, errorCode: 13, msg:Unable to resolve host "restapi.amap.com": No address associated with hostname
+09-11 11:51:30.611 E/@_13_1_@( 2042): getFromLocation exception:
+09-11 11:51:30.611 E/@_13_1_@( 2042): java.io.IOException: com.autonavi.core.network.inter.response.ResponseException: Unable to resolve host "restapi.amap.com": No address associated with hostname
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at com.amap.location.geocode.a.a(GeocodeClient.java:578)
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at com.amap.android.location.GeocodeManager.reverseGeocode(GeocodeManager.java:54)
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at com.huawei.lbs.geocoder.HwGeoCoderProvider.hwGetFromLocation(HwGeoCoderProvider.java:318)
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at com.huawei.lbs.geocoder.HwGeoCoderProvider.access$300(HwGeoCoderProvider.java:27)
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at com.huawei.lbs.geocoder.HwGeoCoderProvider$ServiceHandler.handleMessage(HwGeoCoderProvider.java:273)
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:30.611 E/@_13_1_@( 2042): Caused by: com.autonavi.core.network.inter.response.ResponseException: Unable to resolve host "restapi.amap.com": No address associated with hostname
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at com.autonavi.core.network.inter.NetworkClient$1.run(NetworkClient.java:263)
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at com.autonavi.core.network.a.a.d$c.run(ThreadPool.java:155)
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at java.util.concurrent.ThreadPoolExecutor.processTask(ThreadPoolExecutor.java:1187)
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+09-11 11:51:30.611 E/@_13_1_@( 2042): 	at java.lang.Thread.run(Thread.java:784)
+09-11 11:51:30.802 E/HwXmlLogParse( 1507): mfile is null.
+09-11 11:51:30.812 E/AndroidRuntime( 8687): FATAL EXCEPTION: HwLocationBasedTzUpdater
+09-11 11:51:30.812 E/AndroidRuntime( 8687): Process: com.android.phone, PID: 8687
+09-11 11:51:30.812 E/AndroidRuntime( 8687): java.lang.RuntimeException: StateMachine.handleMessage: The start method not called, received msg: { when=-1ms what=100 obj=Location[gps 30******,120****** hAcc=100 et=+1m48s581ms vAcc=??? sAcc=??? bAcc=???] target=com.android.internal.util.StateMachine$SmHandler }
+09-11 11:51:30.812 E/AndroidRuntime( 8687): 	at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:820)
+09-11 11:51:30.812 E/AndroidRuntime( 8687): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:30.812 E/AndroidRuntime( 8687): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:30.812 E/AndroidRuntime( 8687): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+09-11 11:51:30.822 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.827 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.828 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.836 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.841 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.843 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.846 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.846 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.847 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.847 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.847 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.850 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.850 E/iMonitor(  807): FaultDetect: DUMPTOOL_PRINTF return.
+09-11 11:51:30.970 E/HwInstantOnline-NearbyWrapper( 2421): setDiscoverableStatus: adapter is null
+09-11 11:51:30.970 E/HwInstantOnline-NearbyWrapper( 2421): setDiscoverableStatus: adapter is null
+09-11 11:51:30.971 E/HwInstantOnline-InstantOnlineService( 2421): AdapterListener.onIotStateChange: 2
+09-11 11:51:30.981 E/HsmCoreServiceImpl( 2057): onTransact in code is: 102
+09-11 11:51:30.986 E/HwInstantOnline-NearbyWrapper( 2421): setDiscoverableStatus: adapter is null
+09-11 11:51:30.986 E/HwInstantOnline-NearbyWrapper( 2421): setDiscoverableStatus: adapter is null
+09-11 11:51:31.006 E/HwReportTool( 1507): This is not beta user build
+09-11 11:51:31.007 E/HwXmlLogParse( 1507): mfile is null.
+09-11 11:51:31.053 E/HSM_Install_BG( 2407): SimCardMethod:/getPhoneSimCardInfo: boths card not recongnized
+09-11 11:51:31.070 E/HSM_Install_BG( 2407): SimCardMethod:/getPhoneSimCardInfo: boths card not recongnized
+09-11 11:51:31.116 E/ProcessInfoCollector( 1507): getProcessInfo: failed to find this proc 
+09-11 11:51:31.138 E/m.android.phon( 8826): Not starting debugger since process cannot load the jdwp agent.
+09-11 11:51:31.332 E/HiddenSpace( 1972): update HiddenSpaceData!
+09-11 11:51:31.425 E/TS_Service(  679): hwTsSetAftConfig
+09-11 11:51:31.571 E/BoosterGameP( 2057): inValidCQI:-1
+09-11 11:51:31.587 E/        ( 2070):  CAWARENESS_CLIENT: getHwMSDPOtherParametersbyString arrayString is empty!
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at com.elderdrivers.riru.edxp._hooker.impl.HandleBindApp.beforeHookedMethod(HandleBindApp.java:70)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XC_MethodHook.callBeforeHookedMethod(XC_MethodHook.java:51)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:276)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	... 19 more
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/system/priv-app/TeleService/TeleService.apk"],nativeLibraryDirectories=[/system/priv-app/TeleService/lib/arm64, /system/lib64, /product/lib64, /system/lib64, /product/lib64]]
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:31.643 E/EdXposed-Bridge( 8826): 	... 23 more
+09-11 11:51:31.651 E/HwInstantOnline-NearbyWrapper( 2421): setDiscoverableStatus: adapter is null
+09-11 11:51:31.651 E/HwInstantOnline-NearbyWrapper( 2421): setDiscoverableStatus: adapter is null
+09-11 11:51:31.712 E/HiBoard_d( 4812): no need to reset return
+09-11 11:51:31.755 E/ProcessInfoCollector( 1507): getProcessInfo: failed to find this proc 
+09-11 11:51:31.787 E/ck369.controlb( 8867): Not starting debugger since process cannot load the jdwp agent.
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at com.elderdrivers.riru.edxp._hooker.impl.LoadedApkCstr.afterHookedMethod(LoadedApkCstr.java:67)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XC_MethodHook.callAfterHookedMethod(XC_MethodHook.java:68)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:383)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at SandHookerNew_11kmfuj3mo4jprq7n6o7upu921.hook(Unknown Source:87)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2540)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2495)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2467)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:2352)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.app.ContextImpl.createPackageContext(ContextImpl.java:2339)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.content.ContextWrapper.createPackageContext(ContextWrapper.java:852)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.installProvider(ActivityThread.java:7228)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6813)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6699)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:176)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:154)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:299)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	... 33 more
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/system/app/HwCallRecorder/HwCallRecorder.apk"],nativeLibraryDirectories=[/system/app/HwCallRecorder/lib/arm64, /system/lib64, /product/lib64, /system/lib64, /product/lib64]]
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:31.823 E/EdXposed-Bridge( 8826): 	... 37 more
+09-11 11:51:31.892 E/SensorHub(  795): PS activate 1
+09-11 11:51:31.959 E/TimeReport( 4473):  CAWARENESS: getTimeController() baseAwareController error
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at com.elderdrivers.riru.edxp._hooker.impl.LoadedApkCstr.afterHookedMethod(LoadedApkCstr.java:67)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XC_MethodHook.callAfterHookedMethod(XC_MethodHook.java:68)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:383)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at SandHookerNew_11kmfuj3mo4jprq7n6o7upu921.hook(Unknown Source:87)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2540)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2495)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2467)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:2352)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.app.ContextImpl.createPackageContext(ContextImpl.java:2339)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.content.ContextWrapper.createPackageContext(ContextWrapper.java:852)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.installProvider(ActivityThread.java:7228)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6813)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6699)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:176)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:154)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:299)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	... 33 more
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/system/app/Stk/Stk.apk"],nativeLibraryDirectories=[/system/app/Stk/lib/arm64, /system/lib64, /product/lib64, /system/lib64, /product/lib64]]
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:31.967 E/EdXposed-Bridge( 8826): 	... 37 more
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at com.elderdrivers.riru.edxp._hooker.impl.LoadedApkCstr.afterHookedMethod(LoadedApkCstr.java:67)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XC_MethodHook.callAfterHookedMethod(XC_MethodHook.java:68)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:383)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at SandHookerNew_11kmfuj3mo4jprq7n6o7upu921.hook(Unknown Source:87)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2540)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2495)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2467)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:2352)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.app.ContextImpl.createPackageContext(ContextImpl.java:2339)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.content.ContextWrapper.createPackageContext(ContextWrapper.java:852)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.installProvider(ActivityThread.java:7228)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6813)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6699)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:176)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.SandHook.callOriginMethod(SandHook.java:154)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:299)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	... 33 more
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/system/priv-app/TelephonyProvider/TelephonyProvider.apk"],nativeLibraryDirectories=[/system/priv-app/TelephonyProvider/lib/arm64, /system/lib64, /product/lib64, /system/lib64, /product/lib64]]
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:32.102 E/EdXposed-Bridge( 8826): 	... 37 more
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at com.elderdrivers.riru.edxp._hooker.impl.LoadedApkCstr.afterHookedMethod(LoadedApkCstr.java:67)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XC_MethodHook.callAfterHookedMethod(XC_MethodHook.java:68)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:383)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at SandHookerNew_11kmfuj3mo4jprq7n6o7upu921.hook(Unknown Source:87)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2540)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2495)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2467)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:2352)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at android.app.ContextImpl.createPackageContext(ContextImpl.java:2339)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at ʿʼ.ʾᵢ.ʾᵢ.ʾᵢ.ⁱﾞ.ʾᵢ(Unknown Source:1)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at com.fkzhang.xposed.hook.ʿˆ.ʿʼ(Unknown Source:13)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at com.fkzhang.xposed.hook.ʿˆ.ʾᵢ(Unknown Source:0)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at com.fkzhang.wechatxposed.XposedInit.handleLoadPackage(Unknown Source:13)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at com.elderdrivers.riru.edxp._hooker.impl.HandleBindApp.beforeHookedMethod(HandleBindApp.java:70)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XC_MethodHook.callBeforeHookedMethod(XC_MethodHook.java:51)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:276)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	... 35 more
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/data/app/com.fkzhang.wechatxposed-7Vf-XX0choAS3qd1UOMC5Q==/base.apk"],nativeLibraryDirectories=[/data/app/com.fkzhang.wechatxposed-7Vf-XX0choAS3qd1UOMC5Q==/lib/arm, /data/app/com.fkzhang.wechatxposed-7Vf-XX0choAS3qd1UOMC5Q==/base.apk!/lib/armeabi, /system/lib64, /product/lib64]]
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:32.112 E/EdXposed-Bridge( 8867): 	... 39 more
+09-11 11:51:32.178 E/CarrierIdProvider( 8826): read carrier list from ota pb failure: java.io.FileNotFoundException: /data/misc/carrierid/carrier_list.pb (No such file or directory)
+09-11 11:51:32.199 E/RcsService( 8826): RcsXmlParser - mContext or mccmnc is null return
+09-11 11:51:32.225 E/HwModemCapability( 8826): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:32.235 E/hal_InitAlgorithm_task(  759): do init success
+09-11 11:51:32.244 E/PushLog100000411( 5893): [ReceiverDispatcher-297]no network, so cannot connect(android/null:240)
+09-11 11:51:32.250 E/HiBoard_WeatherInfo( 4812): parseGsonValue jsonValue is empty 
+09-11 11:51:32.299 E/SQLiteLog( 5477): (14) cannot open file at line 36906 of [c255889bd9]
+09-11 11:51:32.299 E/SQLiteLog( 5477): (14) os_unix.c:36906: (13) open(/data/user/0/com.example.android.notepad/databases/note_pad.db) - 
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): Failed to open database '/data/user/0/com.example.android.notepad/databases/note_pad.db'.
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (Sqlite code 14 SQLITE_CANTOPEN): Could not open database, (OS error - 13:Permission denied)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:226)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:210)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:552)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:213)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:202)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:958)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:942)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:816)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:806)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:370)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:337)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at com.example.android.notepad.data.NotePadProvider.query(NotePadProvider.java:444)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.content.ContentProvider.query(ContentProvider.java:1086)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.content.ContentProvider.query(ContentProvider.java:1178)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:252)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:102)
+09-11 11:51:32.300 E/SQLiteDatabase( 5477): 	at android.os.Binder.execTransact(Binder.java:739)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): Couldn't open note_pad.db for writing (will try read-only):
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (Sqlite code 14 SQLITE_CANTOPEN): Could not open database, (OS error - 13:Permission denied)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:226)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:210)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:552)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:213)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:202)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:958)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:942)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:816)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:806)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:370)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:337)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at com.example.android.notepad.data.NotePadProvider.query(NotePadProvider.java:444)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.content.ContentProvider.query(ContentProvider.java:1086)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.content.ContentProvider.query(ContentProvider.java:1178)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:252)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:102)
+09-11 11:51:32.300 E/SQLiteOpenHelper( 5477): 	at android.os.Binder.execTransact(Binder.java:739)
+09-11 11:51:32.300 E/SQLiteLog( 5477): (14) cannot open file at line 36906 of [c255889bd9]
+09-11 11:51:32.300 E/SQLiteLog( 5477): (14) os_unix.c:36906: (13) open(/data/user/0/com.example.android.notepad/databases/note_pad.db) - 
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): Failed to open database '/data/user/0/com.example.android.notepad/databases/note_pad.db'.
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): android.database.sqlite.SQLiteCantOpenDatabaseException: unknown error (Sqlite code 14 SQLITE_CANTOPEN): Could not open database, (OS error - 13:Permission denied)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteConnection.nativeOpen(Native Method)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:226)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:210)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:552)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:213)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:202)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:958)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:942)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:816)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:806)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:384)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:337)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at com.example.android.notepad.data.NotePadProvider.query(NotePadProvider.java:444)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.content.ContentProvider.query(ContentProvider.java:1086)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.content.ContentProvider.query(ContentProvider.java:1178)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:252)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:102)
+09-11 11:51:32.301 E/SQLiteDatabase( 5477): 	at android.os.Binder.execTransact(Binder.java:739)
+09-11 11:51:32.301 E/HwNotePad-NotePadProvider( 5477): error:query happend RuntimeException
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at com.elderdrivers.riru.edxp._hooker.impl.LoadedApkCstr.afterHookedMethod(LoadedApkCstr.java:67)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XC_MethodHook.callAfterHookedMethod(XC_MethodHook.java:68)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:383)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at SandHookerNew_11kmfuj3mo4jprq7n6o7upu921.hook(Unknown Source:87)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2540)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2495)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:2467)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:2352)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at android.app.ContextImpl.createPackageContext(ContextImpl.java:2339)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at ˎˊ.ʻـ.ʻـ.ʻـ.ˉᴵ.ʻـ(Unknown Source:1)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at com.fkzhang.xposed.hook.ⁱˏ.ˎˊ(Unknown Source:13)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at com.fkzhang.xposed.hook.ⁱˏ.ʻـ(Unknown Source:0)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at com.fkzhang.qqxposed.XposedInit.handleLoadPackage(Unknown Source:50)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at com.elderdrivers.riru.edxp._hooker.impl.HandleBindApp.beforeHookedMethod(HandleBindApp.java:70)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XC_MethodHook.callBeforeHookedMethod(XC_MethodHook.java:51)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:276)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	... 35 more
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/data/app/com.fkzhang.qqxposed-wsFk-TZEQb_t3X5-2ocG4Q==/base.apk"],nativeLibraryDirectories=[/data/app/com.fkzhang.qqxposed-wsFk-TZEQb_t3X5-2ocG4Q==/lib/arm, /data/app/com.fkzhang.qqxposed-wsFk-TZEQb_t3X5-2ocG4Q==/base.apk!/lib/armeabi, /system/lib64, /product/lib64]]
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:32.308 E/EdXposed-Bridge( 8867): 	... 39 more
+09-11 11:51:32.327 E/ConnectServiceManager( 2104):  CAWARENESS: getmMSDPSupportModule() mIsConMovementServer:true
+09-11 11:51:32.329 E/ConnectServiceManager( 2104):  CAWARENESS: getmMSDPMovementSupportedActivities() mIsConMovementServer:true
+09-11 11:51:32.330 E/ConnectServiceManager( 2104):  CAWARENESS: getmMSDPMovementSupportedActivities() mMSDPSupportModule:1
+09-11 11:51:32.332 E/Utils   ( 2104):  CAWARENESS: getHwMSDPOtherParametersbyString arrayString is empty!
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:71)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XposedHelpers.findAndHookMethod(XposedHelpers.java:260)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at b.c.a.v.a(SourceFile:1)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at b.c.a.r.a(SourceFile:24)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at com.bigsing.fakemap.MainHook.handleLoadPackage(SourceFile:10)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:37)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:117)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at com.elderdrivers.riru.edxp._hooker.impl.HandleBindApp.beforeHookedMethod(HandleBindApp.java:70)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XC_MethodHook.callBeforeHookedMethod(XC_MethodHook.java:51)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at com.swift.sandhook.xposedcompat.hookstub.HookStubManager.hookBridge(HookStubManager.java:276)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at com.swift.sandhook.xposedcompat.hookstub.MethodHookerStubs64.stub_hook_0(MethodHookerStubs64.java:198)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread.access$2000(ActivityThread.java:273)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2020)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at android.os.Handler.dispatchMessage(Handler.java:112)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at android.os.Looper.loop(Looper.java:216)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at android.app.ActivityThread.main(ActivityThread.java:7625)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): Caused by: java.lang.ClassNotFoundException: com.android.server.LocationManagerService$Receiver
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at java.lang.Class.classForName(Native Method)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at java.lang.Class.forName(Class.java:453)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at external.org.apache.commons.lang3.ClassUtils.getClass(ClassUtils.java:823)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at de.robv.android.xposed.XposedHelpers.findClass(XposedHelpers.java:69)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	... 19 more
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.server.LocationManagerService$Receiver" on path: DexPathList[[zip file "/system/framework/org.apache.http.legacy.boot.jar", zip file "/data/app/com.click369.controlbp-A6nlgAYti0AqjYYsoRNuAA==/base.apk"],nativeLibraryDirectories=[/data/app/com.click369.controlbp-A6nlgAYti0AqjYYsoRNuAA==/lib/arm64, /system/fake-libs64, /data/app/com.click369.controlbp-A6nlgAYti0AqjYYsoRNuAA==/base.apk!/lib/arm64-v8a, /system/lib64, /product/lib64]]
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+09-11 11:51:32.449 E/EdXposed-Bridge( 8867): 	... 23 more
+09-11 11:51:32.557 E/BoosterGameP( 2057): inValidCQI:-1
+09-11 11:51:32.566 E/HwCommBoosterManager( 2057): handleOemHookSetResp end error, ret=-1
+09-11 11:51:32.569 E/FileUtils( 8826):  error:SHA1 for file /cust/global/carrier/network/xml/globalAutoAdapt-conf.xml; value:[29, -11, -105, 22, 76, -24, 6, 47, 59, 126, -71, -103, 102, 7, -44, -98, -69, -55, -56, -85]
+09-11 11:51:32.570 E/FileUtils( 8826):  error:digest for file /cust/global/carrier/network/xml/globalAutoAdapt-conf.xml; value:HfWXFkzoBi87frmZZgfUnrvJyKs=
+09-11 11:51:32.570 E/FileUtils( 8826):  error:compare digest for file /cust/global/carrier/network/xml/globalAutoAdapt-conf.xml; newDigest=HfWXFkzoBi87frmZZgfUnrvJyKs=; oldDigest=:HfWXFkzoBi87frmZZgfUnrvJyKs=
+09-11 11:51:32.576 E/FileUtils( 8826):  error:SHA1 for file /system/etc/virtualNets-conf.xml; value:[]
+09-11 11:51:32.577 E/FileUtils( 8826):  error:compare digest for file /system/etc/virtualNets-conf.xml; newDigest=null; oldDigest=:still_no_digest
+09-11 11:51:32.577 E/FileUtils( 8826):  error:isDigestChanged::digest key is::virtualnets_config_digest, it's new digest is null!
+09-11 11:51:32.582 E/FileUtils( 8826):  error:SHA1 for file /cust/global/carrier/network/xml/globalMatchs-conf.xml; value:[-115, -101, -37, -111, -119, -116, -19, -11, 95, -17, -13, 65, -77, -109, 100, 44, -100, 82, -44, 34]
+09-11 11:51:32.582 E/FileUtils( 8826):  error:digest for file /cust/global/carrier/network/xml/globalMatchs-conf.xml; value:jZvbkYmM7fVf7/NBs5NkLJxS1CI=
+09-11 11:51:32.582 E/FileUtils( 8826):  error:compare digest for file /cust/global/carrier/network/xml/globalMatchs-conf.xml; newDigest=jZvbkYmM7fVf7/NBs5NkLJxS1CI=; oldDigest=:jZvbkYmM7fVf7/NBs5NkLJxS1CI=
+09-11 11:51:32.584 E/MemoryLeakMonitorManager( 8867): MemoryLeakMonitor.jar is not exist!
+09-11 11:51:32.618 E/HwInstantOnline-NearbyWrapper( 2421): setDiscoverableStatus: adapter is null
+09-11 11:51:32.629 E/HwReportTool( 1507): This is not beta user build
+09-11 11:51:32.630 E/HwXmlLogParse( 1507): mfile is null.
+09-11 11:51:32.645 E/SarControl_Manager( 2057): setMaxTxPower, power is illegal, not set the sar
+09-11 11:51:32.661 E/HwModemCapability( 8826): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:32.667 E/SarControl_Manager( 2057): setMaxTxPower, power is illegal, not set the sar
+09-11 11:51:32.677 E/        ( 2070):  CAWARENESS_CLIENT: getHwMSDPOtherParametersbyString arrayString is empty!
+09-11 11:51:32.678 E/HiBoard_WeatherInfo( 4234): parseGsonValue jsonValue is empty 
+09-11 11:51:32.791 E/HwModemCapability( 8826): isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+09-11 11:51:32.849 E/smartpakit(  644): unsurpport cmd = 27
+09-11 11:51:32.849 E/smartpakit(  644): smartpa_algo_control: cmd = 27 execute failed!
+09-11 11:51:32.849 E/smartpakit(  644): set_contain_sco_and_speaker_to_dsp: set BT-SCO and speaker to dsp, failed!
